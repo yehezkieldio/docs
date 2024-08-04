@@ -38,9 +38,6 @@ export default defineConfig({
                     slug: "",
                 },
                 {
-                    slug: "stack",
-                },
-                {
                     label: "Commands",
                     autogenerate: { directory: "commands" },
                 },

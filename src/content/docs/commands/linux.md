@@ -18,3 +18,11 @@ Displays the size of a specified file in megabytes.
 ```bash
 du -sh folder_name | awk '{print $1}'
 ```
+
+#### Import a GPG key from a file
+
+Import a GPG key from a file.
+
+```bash
+gpg --import private-key.asc
+```
