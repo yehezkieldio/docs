@@ -8,7 +8,10 @@ export default defineConfig({
         starlight({
             title: "yehezkieldio",
             social: {
-                github: "https://github.com/yehezkieldio",
+                "github": "https://github.com/yehezkieldio",
+                "x.com": "https://x.com/yhezkieldio",
+                "linkedin": "https://www.linkedin.com/in/yehezkieldio/",
+                "instagram": "https://www.instagram.com/yhezkiel.dio/",
             },
             sidebar: [
                 {
