@@ -21,6 +21,10 @@ export default defineConfig({
                     label: "Commands",
                     autogenerate: { directory: "commands" },
                 },
+                {
+                    label: "Code Snippets",
+                    autogenerate: { directory: "snippets" },
+                },
             ],
             lastUpdated: true,
             customCss: [
