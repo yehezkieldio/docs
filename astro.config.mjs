@@ -4,6 +4,7 @@ import tailwind from "@astrojs/tailwind";
 
 // https://astro.build/config
 export default defineConfig({
+    site: "https://yehezkieldio.vercel.app",
     integrations: [
         starlight({
             title: "yehezkieldio",
@@ -13,6 +14,25 @@ export default defineConfig({
                 "linkedin": "https://www.linkedin.com/in/yehezkieldio/",
                 "instagram": "https://www.instagram.com/yhezkiel.dio/",
             },
+            favicon: "/favicon.ico",
+            head: [
+                {
+                    tag: "link",
+                    attrs: {
+                        rel: "icon",
+                        href: "/favicon-16x16.png",
+                        sizes: "16x16",
+                    },
+                },
+                {
+                    tag: "link",
+                    attrs: {
+                        rel: "icon",
+                        href: "/favicon-32x32.png",
+                        sizes: "32x32",
+                    },
+                },
+            ],
             sidebar: [
                 {
                     slug: "",
