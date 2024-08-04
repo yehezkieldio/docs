@@ -3,55 +3,55 @@
 @tailwind utilities;
 
 :root {
-  --sl-color-accent-low: #1f1d2e;
-  --sl-color-accent: #ebbcba;
-  --sl-color-accent-high: #ebbcba;
-  --sl-color-white: #e0def4;
-  --sl-color-gray-1: #ebbcba;
-  --sl-color-gray-2: #9ccfd8;
-  --sl-color-gray-3: #6e6a86;
-  --sl-color-gray-4: #eb6f92;
-  --sl-color-gray-5: #1f1d2e;
-  --sl-color-gray-6: #191725;
-  --sl-color-black: #191724;
+    --sl-color-accent-low: #1f1d2e;
+    --sl-color-accent: #ebbcba;
+    --sl-color-accent-high: #ebbcba;
+    --sl-color-white: #e0def4;
+    --sl-color-gray-1: #ebbcba;
+    --sl-color-gray-2: #9ccfd8;
+    --sl-color-gray-3: #6e6a86;
+    --sl-color-gray-4: #eb6f92;
+    --sl-color-gray-5: #21202e;
+    --sl-color-gray-6: #191725;
+    --sl-color-black: #191724;
 }
 
 #starlight__sidebar {
-  border-right: 1px solid var(--sl-color-gray-5);
+    border-right: 1px solid var(--sl-color-gray-5);
 }
 
 @media (min-width: 50rem) {
-  [data-has-sidebar] .header:where(.astro-vrdttmbt) {
-    border-bottom: 1px solid var(--sl-color-gray-5);
-  }
+    [data-has-sidebar] .header:where(.astro-vrdttmbt) {
+        border-bottom: 1px solid var(--sl-color-gray-5);
+    }
 }
 
 span.astro-m46x6ez3 {
-  @apply text-xl text-[#e0def6] font-semibold;
+    @apply text-xl text-[#e0def6] font-semibold;
 }
 
 starlight-theme-select {
-  @apply hidden invisible;
+    @apply hidden invisible;
 }
 
 .social-icons:where(.astro-kmkmnagf)::after {
-  @apply border-e-0;
+    @apply border-e-0;
 }
 
 :where(.astro-3ii7xxms)[aria-current="page"],
 :where(.astro-3ii7xxms)[aria-current="page"]:hover,
 :where(.astro-3ii7xxms)[aria-current="page"]:focus {
-  @apply bg-transparent text-[#e0def6] font-normal;
+    @apply bg-transparent text-[#e0def6] font-normal;
 }
 
 .group-label > .large:where(.astro-3ii7xxms) {
-  @apply text-xs font-semibold uppercase tracking-wider;
+    @apply text-xs font-semibold uppercase tracking-wider;
 }
 
 summary.astro-3ii7xxms {
-  @apply pb-2;
+    @apply pb-2;
 }
 
 details ul.astro-3ii7xxms li a {
-  @apply text-sm pb-2;
+    @apply text-sm pb-2;
 }

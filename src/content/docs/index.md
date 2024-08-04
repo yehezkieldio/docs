@@ -1,11 +1,8 @@
 ---
 title: Introduction
-description: A reference page in my new Starlight docs site.
+description: Welcome to my personal library/documentation!
 ---
 
-Reference pages are ideal for outlining how things work in terse and clear terms.
-Less concerned with telling a story or addressing a specific use case, they should give a comprehensive outline of what your documenting.
+Welcome to my personal library/documentation! This is a comprehensive collection of my most frequently used CLI commands, valuable insights on a wide array of topics, curated bookmarks to fascinating resources, and much more.
 
-## Further reading
-
--   Read [about reference](https://diataxis.fr/reference/) in the Diátaxis framework
+I have created this library to serve as a personal knowledge base that I can refer to whenever I need to recall something. I hope you find it useful as well!
