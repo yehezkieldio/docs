@@ -1,9 +1,14 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import tailwind from "@astrojs/tailwind";
+import vercel from "@astrojs/vercel/serverless";
 
 // https://astro.build/config
 export default defineConfig({
+    output: "server",
+    adapter: vercel({
+        webAnalytics: { enabled: true },
+    }),
     site: "https://yehezkieldio.vercel.app",
     integrations: [
         starlight({
