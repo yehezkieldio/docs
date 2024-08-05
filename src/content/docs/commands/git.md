@@ -10,3 +10,11 @@ This command initializes a new repository on GitHub using the GitHub CLI.
 ```bash
 gh repo create repository_name --public --source=. --remote=upstream --description=""
 ```
+
+#### Clone a repository with submodules
+
+This command clones a repository with submodules.
+
+```bash
+git clone --recurse-submodules <repository_url>
+```
