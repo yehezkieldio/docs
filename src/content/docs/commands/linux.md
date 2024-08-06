@@ -26,3 +26,11 @@ Import a GPG key from a file.
 ```bash
 gpg --import private-key.asc
 ```
+
+#### Display Memory Information
+
+This command displays detailed information about the system's memory, including physical memory modules and their attributes.
+
+```bash
+sudo dmidecode --type memory
+```
